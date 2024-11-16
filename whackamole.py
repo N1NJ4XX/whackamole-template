@@ -43,7 +43,7 @@ def main():
         draw_grid(screen)
         screen.blit(mole_image, mole_position)
         pygame.display.flip()
-        clock.tick(10)
+        clock.tick(60)
 
     pygame.quit()
 
